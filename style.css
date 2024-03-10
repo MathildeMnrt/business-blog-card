@@ -1,0 +1,81 @@
+body {
+  background-color: #FAFAF9;
+}
+
+.card {
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  border-radius: 10px;
+  margin-top: 124px;
+  width: 418px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+}
+
+.container {
+  position: relative;
+}
+
+.hero-image {
+  border-radius: 10px;
+  height: 280px; 
+}
+
+.overlay {
+  position: absolute;
+  left: 0; top: 280; right: 0; bottom: 0;
+}
+
+.content { 
+  padding: 0px 32px 24px 32px;
+  border-bottom: solid 1px ;
+  border-bottom-color: #F2F5F9;
+}
+
+.content h2 {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  color: #111729;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+.content p {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 300;
+  color: #677489;
+  margin: 12px 0 0 0;
+}
+
+.author {
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 24px;
+  column-gap: 12px;
+}
+
+.author img {
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  border: 4px solid transparent;
+  border-color: #F2F5F9;
+}
+
+#author-name {
+  font-family: "Lato", sans-serif;
+  color: #111729;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#author-job {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #677489;
+  margin : 2px 0 0 0;
+}
+
